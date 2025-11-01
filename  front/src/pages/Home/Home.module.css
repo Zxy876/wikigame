@@ -1,0 +1,75 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.comingSoon {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.comingSoonIcon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.comingSoon h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.comingSoon p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.content {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.section p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  color: #666;
+  padding-left: 20px;
+}
+
+.section li {
+  margin-bottom: 8px;
+}

@@ -1,0 +1,224 @@
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resultHeader {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e1e5e9;
+}
+
+.resultHeader h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.gameInfo {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.successResult {
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.statValue {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #667eea;
+  margin-bottom: 5px;
+}
+
+.statLabel {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.pathSection {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.pathSection h3 {
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.path {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.pathStep {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.pathStep:hover {
+  background: #e9ecef;
+}
+
+.stepNumber {
+  background: #667eea;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.pageTitle {
+  flex: 1;
+  font-family: 'Monaco', 'Menlo', monospace;
+  font-size: 0.9rem;
+  color: #333;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.pageTitle:hover {
+  color: #667eea;
+  text-decoration: underline;
+}
+
+.arrow {
+  color: #667eea;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.achievements {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: linear-gradient(135deg, #fff3cd, #ffeaa7);
+  border-radius: 8px;
+  border: 1px solid #ffeaa7;
+}
+
+.achievements h3 {
+  color: #856404;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.achievementList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.achievement {
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  color: #856404;
+  font-weight: 500;
+}
+
+.noPathResult {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.noPathIcon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.noPathResult h3 {
+  color: #dc3545;
+  margin-bottom: 15px;
+}
+
+.noPathResult p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.noPathResult ul {
+  text-align: left;
+  display: inline-block;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.noPathResult li {
+  margin-bottom: 5px;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  padding-top: 20px;
+  border-top: 1px solid #e1e5e9;
+  flex-wrap: wrap;
+}
+
+.newGameButton {
+  background: linear-gradient(135deg, #28a745, #20c997);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.newGameButton:hover {
+  transform: scale(1.05);
+}
+
+.wikiButton {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.wikiButton:hover {
+  background: #545b62;
+}

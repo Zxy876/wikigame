@@ -1,0 +1,58 @@
+/* 响应式断点 */
+@define-mixin mobile {
+  @media (max-width: 768px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin tablet {
+  @media (min-width: 769px) and (max-width: 1024px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin desktop {
+  @media (min-width: 1025px) {
+    @mixin-content;
+  }
+}
+
+/* 文本截断 */
+@define-mixin text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 多行文本截断 */
+@define-mixin text-truncate-multiline $lines {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 居中定位 */
+@define-mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 绝对居中 */
+@define-mixin absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 隐藏滚动条但保持滚动功能 */
+@define-mixin hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+  
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+  }
+}
